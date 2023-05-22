@@ -1,0 +1,15 @@
+<h1>New Post under this Place</h1>
+
+<%= form_with :model => @post do |form| %>
+
+<%= form.label "Title" %>
+<%= form.text_field "Name of Place" %>
+<%= form.label "Date" %>
+<%= form.date_field "Date" %>
+<%= form.label "Description" %>
+<%= form.date_field "Description" %>
+
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
